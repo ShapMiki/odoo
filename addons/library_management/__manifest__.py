@@ -7,6 +7,7 @@
     "data": [
         'security/library_security.xml',
         'security/ir.model.access.csv',
+        'views/library_views.xml',
     ],
     "installable": True,
     "application": True,
