@@ -1,0 +1,219 @@
+2025-08-19 13:35:42,218 18059 INFO ? odoo: Odoo version 18.0 
+2025-08-19 13:35:42,218 18059 INFO ? odoo: Using configuration file at /home/mikita/project/odoo/odoo/odoo.conf 
+2025-08-19 13:35:42,218 18059 INFO ? odoo: addons paths: ['/home/mikita/project/odoo/odoo/odoo/addons', '/home/mikita/project/odoo/odoo/.odoo_data/addons/18.0', '/home/mikita/project/odoo/addons', '/home/mikita/project/odoo/odoo/addons', '/home/mikita/project/odoo/odoo/custom_addons'] 
+2025-08-19 13:35:42,218 18059 INFO ? odoo: database: odoo@localhost:5432 
+2025-08-19 13:35:42,290 18059 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-08-19 13:35:42,290 18059 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-08-19 13:35:42,388 18059 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069 
+2025-08-19 13:35:42,425 18059 INFO odoo_db_clean odoo.modules.loading: init db 
+2025-08-19 13:35:43,591 18059 WARNING odoo_db_clean odoo.modules.module: addons path does not exist: /home/mikita/project/odoo/addons 
+2025-08-19 13:35:43,921 18059 WARNING odoo_db_clean odoo.modules.module: Missing `license` key in manifest for 'library_management', defaulting to LGPL-3 
+2025-08-19 13:35:43,956 18059 WARNING odoo_db_clean odoo.modules.module: Missing `license` key in manifest for 'my_first_addons', defaulting to LGPL-3 
+2025-08-19 13:35:44,223 18059 INFO odoo_db_clean odoo.modules.loading: loading 1 modules... 
+2025-08-19 13:35:44,223 18059 INFO odoo_db_clean odoo.modules.loading: Loading module base (1/1) 
+2025-08-19 13:35:44,252 18059 INFO odoo_db_clean odoo.modules.registry: module base: creating or updating database tables 
+2025-08-19 13:35:49,475 18059 INFO odoo_db_clean odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2025-08-19 13:35:49,475 18059 INFO odoo_db_clean odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2025-08-19 13:35:49,476 18059 INFO odoo_db_clean odoo.models: Prepare computation of ir.module.module.views_by_module 
+2025-08-19 13:35:51,541 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.partner.user_id 
+2025-08-19 13:35:51,541 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2025-08-19 13:35:51,541 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.partner.complete_name 
+2025-08-19 13:35:51,541 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.partner.company_registry 
+2025-08-19 13:35:51,541 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.partner.commercial_company_name 
+2025-08-19 13:35:51,541 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.partner.partner_share 
+2025-08-19 13:35:51,881 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.currency.decimal_places 
+2025-08-19 13:35:52,149 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.company.uses_default_logo 
+2025-08-19 13:35:52,149 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.company.logo_web 
+2025-08-19 13:35:52,186 18059 INFO odoo_db_clean odoo.models: Computing parent_path for table res_company... 
+2025-08-19 13:35:52,501 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.users.signature 
+2025-08-19 13:35:52,501 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.users.share 
+2025-08-19 13:35:58,726 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_bank.xml 
+2025-08-19 13:35:58,729 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res.lang.csv 
+2025-08-19 13:35:58,756 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_lang_data.xml 
+2025-08-19 13:35:58,777 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_partner_data.xml 
+2025-08-19 13:35:58,811 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_currency_data.xml 
+2025-08-19 13:35:59,084 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_company_data.xml 
+2025-08-19 13:35:59,089 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_users_data.xml 
+2025-08-19 13:35:59,868 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2025-08-19 13:35:59,873 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_country_data.xml 
+2025-08-19 13:36:00,104 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2025-08-19 13:36:00,111 18059 INFO odoo_db_clean odoo.modules.loading: loading base/security/base_groups.xml 
+2025-08-19 13:36:00,282 18059 INFO odoo_db_clean odoo.modules.loading: loading base/security/base_security.xml 
+2025-08-19 13:36:00,359 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/base_menus.xml 
+2025-08-19 13:36:00,392 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2025-08-19 13:36:00,402 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_config_views.xml 
+2025-08-19 13:36:00,405 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res.country.state.csv 
+2025-08-19 13:36:00,937 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2025-08-19 13:36:01,017 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2025-08-19 13:36:01,026 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2025-08-19 13:36:01,036 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2025-08-19 13:36:01,051 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2025-08-19 13:36:01,060 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2025-08-19 13:36:01,071 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2025-08-19 13:36:01,082 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_model_views.xml 
+2025-08-19 13:36:01,164 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2025-08-19 13:36:01,176 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2025-08-19 13:36:01,187 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2025-08-19 13:36:01,198 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2025-08-19 13:36:01,209 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2025-08-19 13:36:01,235 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_default_views.xml 
+2025-08-19 13:36:01,245 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2025-08-19 13:36:01,246 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2025-08-19 13:36:01,253 18059 INFO odoo_db_clean odoo.modules.loading: loading base/report/ir_model_report.xml 
+2025-08-19 13:36:01,255 18059 INFO odoo_db_clean odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2025-08-19 13:36:01,259 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2025-08-19 13:36:01,269 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2025-08-19 13:36:01,276 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_module_views.xml 
+2025-08-19 13:36:01,304 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2025-08-19 13:36:01,340 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/ir_module_module.xml 
+2025-08-19 13:36:01,373 18059 INFO odoo_db_clean odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2025-08-19 13:36:01,375 18059 INFO odoo_db_clean odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2025-08-19 13:36:01,378 18059 INFO odoo_db_clean odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2025-08-19 13:36:01,387 18059 INFO odoo_db_clean odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2025-08-19 13:36:01,393 18059 INFO odoo_db_clean odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2025-08-19 13:36:01,400 18059 INFO odoo_db_clean odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2025-08-19 13:36:01,410 18059 INFO odoo_db_clean odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2025-08-19 13:36:01,415 18059 INFO odoo_db_clean odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2025-08-19 13:36:01,422 18059 INFO odoo_db_clean odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2025-08-19 13:36:01,431 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2025-08-19 13:36:01,439 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2025-08-19 13:36:01,452 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_company_views.xml 
+2025-08-19 13:36:01,465 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_lang_views.xml 
+2025-08-19 13:36:01,476 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_partner_views.xml 
+2025-08-19 13:36:01,535 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_bank_views.xml 
+2025-08-19 13:36:01,551 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_country_views.xml 
+2025-08-19 13:36:01,575 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_currency_views.xml 
+2025-08-19 13:36:01,595 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_users_views.xml 
+2025-08-19 13:36:01,659 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_device_views.xml 
+2025-08-19 13:36:01,670 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2025-08-19 13:36:01,673 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2025-08-19 13:36:01,677 18059 INFO odoo_db_clean odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2025-08-19 13:36:01,690 18059 INFO odoo_db_clean odoo.modules.loading: loading base/security/ir.model.access.csv 
+2025-08-19 13:36:01,769 18059 INFO odoo_db_clean odoo.modules.loading: Module base: loading demo 
+2025-08-19 13:36:01,770 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_users_demo.xml 
+2025-08-19 13:36:02,882 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2025-08-19 13:36:02,885 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_currency_demo.xml 
+2025-08-19 13:36:02,888 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2025-08-19 13:36:03,022 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2025-08-19 13:36:03,025 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2025-08-19 13:36:03,152 18059 INFO odoo_db_clean odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2025-08-19 13:36:03,509 18059 INFO odoo_db_clean odoo.modules.loading: Module base loaded in 19.29s, 9250 queries (+9250 other) 
+2025-08-19 13:36:03,509 18059 INFO odoo_db_clean odoo.modules.loading: 1 modules loaded in 19.29s, 9250 queries (+9250 extra) 
+2025-08-19 13:36:03,525 18059 INFO odoo_db_clean odoo.modules.loading: updating modules list 
+2025-08-19 13:36:03,527 18059 INFO odoo_db_clean odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-08-19 13:36:03,538 18059 WARNING odoo_db_clean odoo.modules.module: addons path does not exist: /home/mikita/project/odoo/addons 
+2025-08-19 13:36:03,924 18059 INFO odoo_db_clean odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Library Management'] to user __system__ #1 via n/a 
+2025-08-19 13:36:03,966 18059 INFO odoo_db_clean odoo.modules.loading: loading 13 modules... 
+2025-08-19 13:36:03,966 18059 INFO odoo_db_clean odoo.modules.loading: Loading module library_management (2/13) 
+2025-08-19 13:36:03,978 18059 INFO odoo_db_clean odoo.modules.registry: module library_management: creating or updating database tables 
+2025-08-19 13:36:04,503 18059 WARNING odoo_db_clean odoo.modules.loading: The models ['library.book'] have no access rules in module library_management, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+library_management.access_library_book,access_library_book,library_management.model_library_book,base.group_user,1,0,0,0 
+2025-08-19 13:36:04,505 18059 INFO odoo_db_clean odoo.modules.loading: Module library_management loaded in 0.54s, 37 queries (+37 other) 
+2025-08-19 13:36:04,505 18059 INFO odoo_db_clean odoo.modules.loading: Loading module web (3/13) 
+2025-08-19 13:36:04,523 18059 INFO odoo_db_clean odoo.modules.registry: module web: creating or updating database tables 
+2025-08-19 13:36:05,280 18059 INFO odoo_db_clean odoo.modules.loading: loading web/security/ir.model.access.csv 
+2025-08-19 13:36:05,285 18059 INFO odoo_db_clean odoo.modules.loading: loading web/views/webclient_templates.xml 
+2025-08-19 13:36:05,314 18059 INFO odoo_db_clean odoo.modules.loading: loading web/views/report_templates.xml 
+2025-08-19 13:36:05,362 18059 INFO odoo_db_clean odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2025-08-19 13:36:05,370 18059 INFO odoo_db_clean odoo.modules.loading: loading web/views/partner_view.xml 
+2025-08-19 13:36:05,374 18059 INFO odoo_db_clean odoo.modules.loading: loading web/views/speedscope_template.xml 
+2025-08-19 13:36:05,376 18059 INFO odoo_db_clean odoo.modules.loading: loading web/views/neutralize_views.xml 
+2025-08-19 13:36:05,380 18059 INFO odoo_db_clean odoo.modules.loading: loading web/data/ir_attachment.xml 
+2025-08-19 13:36:05,382 18059 INFO odoo_db_clean odoo.modules.loading: loading web/data/report_layout.xml 
+2025-08-19 13:36:05,468 18059 WARNING odoo_db_clean odoo.modules.loading: The models ['library.book'] have no access rules in module web, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+web.access_library_book,access_library_book,web.model_library_book,base.group_user,1,0,0,0 
+2025-08-19 13:36:05,493 18059 INFO odoo_db_clean odoo.modules.loading: Module web loaded in 0.99s, 1106 queries (+1106 other) 
+2025-08-19 13:36:05,493 18059 INFO odoo_db_clean odoo.modules.loading: Loading module auth_totp (4/13) 
+2025-08-19 13:36:05,531 18059 INFO odoo_db_clean odoo.modules.registry: module auth_totp: creating or updating database tables 
+2025-08-19 13:36:06,241 18059 INFO odoo_db_clean odoo.modules.loading: loading auth_totp/security/security.xml 
+2025-08-19 13:36:06,255 18059 INFO odoo_db_clean odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2025-08-19 13:36:06,260 18059 INFO odoo_db_clean odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2025-08-19 13:36:06,264 18059 INFO odoo_db_clean odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2025-08-19 13:36:06,282 18059 INFO odoo_db_clean odoo.modules.loading: loading auth_totp/views/templates.xml 
+2025-08-19 13:36:06,285 18059 INFO odoo_db_clean odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2025-08-19 13:36:06,369 18059 INFO odoo_db_clean odoo.modules.loading: Module auth_totp loaded in 0.88s, 188 queries (+188 other) 
+2025-08-19 13:36:06,369 18059 INFO odoo_db_clean odoo.modules.loading: Loading module base_import (5/13) 
+2025-08-19 13:36:06,456 18059 INFO odoo_db_clean odoo.modules.registry: module base_import: creating or updating database tables 
+2025-08-19 13:36:07,635 18059 INFO odoo_db_clean odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2025-08-19 13:36:07,735 18059 WARNING odoo_db_clean odoo.modules.loading: The models ['library.book'] have no access rules in module base_import, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+base_import.access_library_book,access_library_book,base_import.model_library_book,base.group_user,1,0,0,0 
+2025-08-19 13:36:07,745 18059 INFO odoo_db_clean odoo.modules.loading: Module base_import loaded in 1.38s, 883 queries (+883 other) 
+2025-08-19 13:36:07,745 18059 INFO odoo_db_clean odoo.modules.loading: Loading module base_import_module (6/13) 
+2025-08-19 13:36:07,795 18059 INFO odoo_db_clean odoo.modules.registry: module base_import_module: creating or updating database tables 
+2025-08-19 13:36:08,124 18059 INFO odoo_db_clean odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2025-08-19 13:36:08,130 18059 INFO odoo_db_clean odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2025-08-19 13:36:08,141 18059 INFO odoo_db_clean odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2025-08-19 13:36:08,264 18059 INFO odoo_db_clean odoo.modules.loading: Module base_import_module loaded in 0.52s, 164 queries (+164 other) 
+2025-08-19 13:36:08,264 18059 INFO odoo_db_clean odoo.modules.loading: Loading module base_setup (7/13) 
+2025-08-19 13:36:08,280 18059 INFO odoo_db_clean odoo.modules.registry: module base_setup: creating or updating database tables 
+2025-08-19 13:36:08,314 18059 INFO odoo_db_clean odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2025-08-19 13:36:08,318 18059 INFO odoo_db_clean odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2025-08-19 13:36:08,339 18059 INFO odoo_db_clean odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2025-08-19 13:36:08,407 18059 INFO odoo_db_clean odoo.modules.loading: Module base_setup loaded in 0.14s, 150 queries (+150 other) 
+2025-08-19 13:36:08,407 18059 INFO odoo_db_clean odoo.modules.loading: Loading module bus (8/13) 
+2025-08-19 13:36:08,435 18059 INFO odoo_db_clean odoo.modules.registry: module bus: creating or updating database tables 
+2025-08-19 13:36:09,386 18059 INFO odoo_db_clean odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2025-08-19 13:36:09,490 18059 INFO odoo_db_clean odoo.modules.loading: Module bus loaded in 1.08s, 165 queries (+165 other) 
+2025-08-19 13:36:09,490 18059 INFO odoo_db_clean odoo.modules.loading: Loading module web_tour (9/13) 
+2025-08-19 13:36:09,536 18059 INFO odoo_db_clean odoo.modules.registry: module web_tour: creating or updating database tables 
+2025-08-19 13:36:09,541 18059 INFO odoo_db_clean odoo.models: Prepare computation of res.users.tour_enabled 
+2025-08-19 13:36:10,694 18059 INFO odoo_db_clean odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2025-08-19 13:36:10,703 18059 INFO odoo_db_clean odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2025-08-19 13:36:10,724 18059 INFO odoo_db_clean odoo.modules.loading: loading web_tour/views/res_users_views.xml 
+2025-08-19 13:36:10,811 18059 INFO odoo_db_clean odoo.modules.loading: Module web_tour loaded in 1.32s, 188 queries (+188 other) 
+2025-08-19 13:36:10,811 18059 INFO odoo_db_clean odoo.modules.loading: Loading module html_editor (10/13) 
+2025-08-19 13:36:10,892 18059 INFO odoo_db_clean odoo.modules.registry: module html_editor: creating or updating database tables 
+2025-08-19 13:36:11,174 18059 INFO odoo_db_clean odoo.modules.loading: Module html_editor loaded in 0.36s, 46 queries (+46 other) 
+2025-08-19 13:36:11,175 18059 INFO odoo_db_clean odoo.modules.loading: Loading module iap (11/13) 
+2025-08-19 13:36:11,222 18059 INFO odoo_db_clean odoo.modules.registry: module iap: creating or updating database tables 
+2025-08-19 13:36:12,557 18059 INFO odoo_db_clean odoo.modules.loading: loading iap/data/services.xml 
+2025-08-19 13:36:12,560 18059 INFO odoo_db_clean odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2025-08-19 13:36:12,568 18059 INFO odoo_db_clean odoo.modules.loading: loading iap/security/ir_rule.xml 
+2025-08-19 13:36:12,572 18059 INFO odoo_db_clean odoo.modules.loading: loading iap/views/iap_views.xml 
+2025-08-19 13:36:12,586 18059 INFO odoo_db_clean odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2025-08-19 13:36:12,896 18059 INFO odoo_db_clean odoo.modules.loading: Module iap loaded in 1.72s, 183 queries (+183 other) 
+2025-08-19 13:36:12,896 18059 INFO odoo_db_clean odoo.modules.loading: Loading module web_editor (12/13) 
+2025-08-19 13:36:12,924 18059 INFO odoo_db_clean odoo.modules.registry: module web_editor: creating or updating database tables 
+2025-08-19 13:36:14,241 18059 INFO odoo_db_clean odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2025-08-19 13:36:14,247 18059 INFO odoo_db_clean odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2025-08-19 13:36:14,250 18059 INFO odoo_db_clean odoo.modules.loading: loading web_editor/views/editor.xml 
+2025-08-19 13:36:14,258 18059 INFO odoo_db_clean odoo.modules.loading: loading web_editor/views/snippets.xml 
+2025-08-19 13:36:14,351 18059 WARNING odoo_db_clean odoo.modules.loading: The models ['library.book'] have no access rules in module web_editor, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+web_editor.access_library_book,access_library_book,web_editor.model_library_book,base.group_user,1,0,0,0 
+2025-08-19 13:36:14,363 18059 INFO odoo_db_clean odoo.modules.loading: Module web_editor loaded in 1.47s, 1013 queries (+1013 other) 
+2025-08-19 13:36:14,363 18059 INFO odoo_db_clean odoo.modules.loading: Loading module web_unsplash (13/13) 
+2025-08-19 13:36:14,380 18059 INFO odoo_db_clean odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2025-08-19 13:36:14,420 18059 INFO odoo_db_clean odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2025-08-19 13:36:14,523 18059 INFO odoo_db_clean odoo.modules.loading: Module web_unsplash loaded in 0.16s, 98 queries (+98 other) 
+2025-08-19 13:36:14,523 18059 INFO odoo_db_clean odoo.modules.loading: 13 modules loaded in 10.56s, 4221 queries (+4221 extra) 
+2025-08-19 13:36:14,710 18059 INFO odoo_db_clean odoo.modules.loading: Modules loaded. 
+2025-08-19 13:36:14,790 18059 INFO odoo_db_clean odoo.modules.registry: Registry changed, signaling through the database 
+2025-08-19 13:36:14,792 18059 INFO odoo_db_clean odoo.modules.registry: Registry loaded in 32.405s 
+2025-08-19 13:36:14,793 18059 INFO odoo_db_clean odoo.service.server: Stopping gracefully 
+2025-08-19 13:59:53,363 7612 INFO ? odoo: Odoo version 18.0 
+2025-08-19 13:59:53,363 7612 INFO ? odoo: Using configuration file at /home/mikita/project/odoo/odoo/odoo.conf 
+2025-08-19 13:59:53,363 7612 INFO ? odoo: addons paths: ['/home/mikita/project/odoo/odoo/odoo/addons', '/home/mikita/project/odoo/odoo/.odoo_data/addons/18.0', '/home/mikita/project/odoo/odoo/addons', '/home/mikita/project/odoo/odoo/custom_addons'] 
+2025-08-19 13:59:53,363 7612 INFO ? odoo: database: odoo@localhost:5432 
+2025-08-19 13:59:53,891 7612 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-08-19 13:59:53,891 7612 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-08-19 13:59:54,425 7612 INFO ? odoo.service.server: HTTP service (werkzeug) running on UbuntuMikita:8069 
+2025-08-19 13:59:54,443 7612 INFO odoo_db_clean odoo.modules.loading: loading 1 modules... 
+2025-08-19 13:59:54,448 7612 INFO odoo_db_clean odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-08-19 13:59:54,450 7612 WARNING odoo_db_clean odoo.modules.module: Missing `license` key in manifest for 'library_management', defaulting to LGPL-3 
+2025-08-19 13:59:54,453 7612 INFO odoo_db_clean odoo.modules.loading: loading 13 modules... 
+2025-08-19 13:59:54,872 7612 INFO odoo_db_clean odoo.modules.loading: 13 modules loaded in 0.42s, 0 queries (+0 extra) 
+2025-08-19 13:59:54,900 7612 INFO odoo_db_clean odoo.modules.loading: Modules loaded. 
+2025-08-19 13:59:54,901 7612 INFO odoo_db_clean odoo.modules.registry: Registry loaded in 0.476s 
+2025-08-19 13:59:59,402 7612 INFO odoo_db_clean odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-08-19 13:59:59,415 7612 INFO odoo_db_clean werkzeug: 127.0.0.1 - - [19/Aug/2025 13:59:59] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 10 0.003 0.011
+2025-08-19 13:59:59,493 7612 INFO odoo_db_clean werkzeug: 127.0.0.1 - - [19/Aug/2025 13:59:59] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 6 0.001 0.002
+2025-08-19 13:59:59,802 7612 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-08-19 14:00:56,785 7612 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'my_first_addons', defaulting to LGPL-3 
+2025-08-19 14:00:56,789 7612 INFO odoo_db_clean werkzeug: 127.0.0.1 - - [19/Aug/2025 14:00:56] "POST /web/webclient/version_info HTTP/1.1" 200 - 4 0.001 0.155
+2025-08-19 14:03:00,157 7612 INFO odoo_db_clean odoo.service.server: Initiating shutdown 
+2025-08-19 14:03:00,157 7612 INFO odoo_db_clean odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-08-19 14:03:00,324 7612 INFO odoo_db_clean odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 4 connections  

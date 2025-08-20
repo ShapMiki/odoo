@@ -1,0 +1,20 @@
+                                          Table "public.library_book"
+     Column     |            Type             | Collation | Nullable |                 Default                  
+----------------+-----------------------------+-----------+----------+------------------------------------------
+ id             | integer                     |           | not null | nextval('library_book_id_seq'::regclass)
+ create_uid     | integer                     |           |          | 
+ write_uid      | integer                     |           |          | 
+ title          | character varying           |           | not null | 
+ author         | character varying           |           |          | 
+ isbn           | character varying           |           |          | 
+ published_date | date                        |           |          | 
+ description    | text                        |           |          | 
+ is_available   | boolean                     |           |          | 
+ create_date    | timestamp without time zone |           |          | 
+ write_date     | timestamp without time zone |           |          | 
+Indexes:
+    "library_book_pkey" PRIMARY KEY, btree (id)
+Foreign-key constraints:
+    "library_book_create_uid_fkey" FOREIGN KEY (create_uid) REFERENCES res_users(id) ON DELETE SET NULL
+    "library_book_write_uid_fkey" FOREIGN KEY (write_uid) REFERENCES res_users(id) ON DELETE SET NULL
+
