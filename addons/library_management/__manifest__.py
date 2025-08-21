@@ -8,6 +8,7 @@
         'security/library_security.xml',
         'security/ir.model.access.csv',
         'views/library_views.xml',
+        'views/library_views_inherit.xml',
     ],
     "installable": True,
     "application": True,
