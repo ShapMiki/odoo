@@ -8,7 +8,7 @@ class LibraryPublisher(models.Model):
 
     books_ids = fields.One2many(
         comodel_name='library.book',
-        inverse_name='books_id',
+        inverse_name='publisher_id',
         string='books'
     )
 

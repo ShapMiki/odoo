@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 class LibraryBook(models.Model):
     _name = "library.book"
@@ -10,17 +10,44 @@ class LibraryBook(models.Model):
     description = fields.Text("Description")
     published_date = fields.Date("Published Date")
     is_available = fields.Boolean("Is Available", default=True)
+    count_pages = fields.Integer("Pages", default=0)
+
+    large_type = fields.Char("large_type", compute=('_compute_large_type'), store=True)
+    full_title = fields.Char("full_title", compute=('_compute_full_title'), store=True)
 
     publisher_id = fields.Many2one(
         comodel_name='library.publisher',
-        string='publisher'
+        string='Publisher'
     )
 
-    genry_id = fields.Many2many(
-         comodel_name='library.skill',
-        relation='genre_skill_rel',
+    genre_ids = fields.Many2many(
+        comodel_name='library.genre',
+        relation='library_book_genre_rel',
         column1='book_id',
         column2='genre_id',
-        string='Genry'
+        string='Genres'
     )
+
+    @api.depends('title', 'author')
+    def _compute_full_title(self):
+        for line in self:
+            line.full_title = (line.author or "") + " " + (line.title or "")
+
+    @api.depends('count_pages')
+    def _compute_large_type(self):
+        for line in self:
+            large_type_str = None
+            if 0 < line.count_pages <= 50:
+                large_type_str = 'Mini'
+            elif 50 < line.count_pages <= 300:
+                large_type_str = "normal"
+            elif 300 < line.count_pages <= 3000:
+                large_type_str = "Large"
+            elif line.count_pages > 3000:
+                large_type_str = "Epic"
+
+            line.large_type  = large_type_str
+
+
+
 

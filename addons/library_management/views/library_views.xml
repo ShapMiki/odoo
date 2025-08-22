@@ -9,6 +9,9 @@
                 <field name="author"/>
                 <field name="isbn"/>
                 <field name="is_available"/>
+                <field name="count_pages"/>
+                <field name="large_type"/>
+                <field name="full_title"/>
             </list>
         </field>
     </record>
@@ -23,6 +26,7 @@
                     <group>
                         <field name="title"/>
                         <field name="author"/>
+                        <field name="count_pages"/>
                         <field name="isbn"/>
                         <field name="description"/>
                         <field name="published_date"/>
@@ -56,7 +60,7 @@
     <record id="action_library_book" model="ir.actions.act_window">
         <field name="name">Library Books</field>
         <field name="res_model">library.book</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
     </record>
 
     <!-- Меню -->
