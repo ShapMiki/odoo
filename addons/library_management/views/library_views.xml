@@ -23,6 +23,7 @@
         <field name="arch" type="xml">
             <form string="Library Book">
                 <sheet>
+
                     <group>
                         <field name="title"/>
                         <field name="author"/>
@@ -32,6 +33,13 @@
                         <field name="published_date"/>
                         <field name="is_available"/>
                     </group>
+                     <header>
+                            <button name="action_mark_as_featured" 
+                                string="Confirm" 
+                                type="object" 
+                                class="oe_highlight"
+                                invisible="is_available == True"/>
+                    </header>
                 </sheet>
             </form>
         </field>

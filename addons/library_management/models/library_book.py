@@ -49,5 +49,10 @@ class LibraryBook(models.Model):
             line.large_type  = large_type_str
 
 
+    def action_mark_as_featured(self):
+        for record in self:
+            if not record.is_available:
+                record.is_available = True
+        return True
 
 
