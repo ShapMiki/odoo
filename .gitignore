@@ -1,5 +1,6 @@
 #my
 venv/
+.venv/
 
 
 # sphinx build directories
