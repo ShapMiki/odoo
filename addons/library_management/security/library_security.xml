@@ -5,12 +5,6 @@
         <field name="category_id" ref="base.module_category_hidden"/> 
     </record>
 
-    <!-- Группа: библиотекарь -->
-    <record id="group_library_librarian" model="res.groups">
-        <field name="name">Library Librarian</field>
-        <field name="category_id" ref="base.module_category_hidden"/>
-    </record>
-
     <!-- Группа: менеджер библиотеки -->
     <record id="group_library_manager" model="res.groups">
         <field name="name">Library Manager</field>

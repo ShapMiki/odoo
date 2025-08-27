@@ -28,6 +28,19 @@ class LibraryBook(models.Model):
         string='Genres'
     )
 
+    _sql_constraints = [
+        (
+            'book_unique',
+            'unique(isbn, full_title)',
+            'book not unique'
+        ),
+        (
+            'count_page_check',
+            'CHECK(count_pages >= 0)',
+            'Invalid page count'
+        ),
+    ]
+
     @api.depends('title', 'author')
     def _compute_full_title(self):
         for line in self:
