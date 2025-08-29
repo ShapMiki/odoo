@@ -31,7 +31,10 @@
                         <field name="isbn"/>
                         <field name="description"/>
                         <field name="published_date"/>
-                        <field name="is_available"/>
+                        <field name="is_available" statusbar_visible="True, False"
+                        statusbar_colors="True:red,False:green"/>
+                        <field name="price" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                        <field name="image" widget="image"/>
                     </group>
                      <header>
                             <button name="action_mark_as_featured" 

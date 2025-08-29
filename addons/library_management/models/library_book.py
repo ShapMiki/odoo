@@ -12,6 +12,7 @@ class LibraryBook(models.Model):
     is_available = fields.Boolean("Is Available", default=True)
     count_pages = fields.Integer("Pages", default=0)
 
+
     large_type = fields.Char("large_type", compute=('_compute_large_type'), store=True)
     full_title = fields.Char("full_title", compute=('_compute_full_title'), store=True)
 
@@ -27,6 +28,10 @@ class LibraryBook(models.Model):
         column2='genre_id',
         string='Genres'
     )
+
+    price = fields.Float("price", default=0)
+
+    image = fields.Image("image")
 
     _sql_constraints = [
         (
