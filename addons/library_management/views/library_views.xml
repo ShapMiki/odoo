@@ -21,8 +21,12 @@
         <field name="name">library.book.form</field>
         <field name="model">library.book</field>
         <field name="arch" type="xml">
+        
             <form string="Library Book">
                 <sheet>
+                    <div>
+                        <span style="color: red;">БИБЛИОТЕКА</span>
+                    </div>
 
                     <group>
                         <field name="title"/>
