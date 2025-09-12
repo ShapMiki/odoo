@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-  <!-- Шаблон отчета для книги -->
+
+  <!--  
   <template id="report_book_document">
     <t t-call="web.external_layout">
       <t t-foreach="docs" t-as="doc">
@@ -63,9 +64,9 @@
         </div>
       </t>
     </t>
-  </template>
+  </template>-->
 
-  <!-- Действие отчета -->
+  <!-- Действие отчета 
   <record id="action_report_library_book" model="ir.actions.report">
     <field name="name">Отчет о книге</field>
     <field name="model">library.book</field>
@@ -75,5 +76,54 @@
     <field name="print_report_name">'Книга - %s' % (object.title or 'Без названия')</field>
     <field name="binding_model_id" ref="model_library_book"/>
     <field name="binding_type">report</field>
+  </record>-->
+
+  <!-- report-->
+  <template id="report_book_document">
+    <t t-call="web.external_layout">
+      <t t-foreach="docs" t-as="doc">
+        <div class="page">
+
+          <div class="text-center mb-4">
+            <h2 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 5px;">
+              📚 Book report
+            </h2>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <p><strong>Name:</strong> <span t-field="doc.title"/></p>
+              <p><strong>Author:</strong> <span t-field="doc.author"/></p>
+              <p><strong>ISBN:</strong> <span t-field="doc.isbn"/></p>
+              <p><strong>Price:</strong> <span t-field="doc.price"/> $</p>
+            </div>
+            <div class="col-6">
+              <p><strong>Count page:</strong> <span t-field="doc.count_pages"/></p>
+              <p><strong>Type:</strong> <span style="color:#FFC0CB;" t-field="doc.large_type"/></p>
+              <p><strong>publish date:</strong> <span t-field="doc.published_date"/></p>
+              <p t-if="doc.publisher_id"><strong>publisher:</strong> <span t-field="doc.publisher_id"/></p>
+            </div>
+          </div>
+
+          <div class="mt-4" t-if="doc.description">
+            <h3 style="color:#34495e;">Description</h3>
+            <p t-field="doc.description"/>
+          </div>
+        </div>
+      </t>
+    </t>
+  </template>
+
+  <!-- report action -->
+  <record id="action_report_library_book" model="ir.actions.report">
+    <field name="name">Book report</field>
+    <field name="model">library.book</field>
+    <field name="report_type">qweb-pdf</field>
+    <field name="report_name">library_management.report_book_document</field>
+    <field name="report_file">library_management.report_book_document</field>
+    <field name="print_report_name">'Книга - %s' % (object.title or 'Без названия')</field>
+    <field name="binding_model_id" ref="model_library_book"/>
+    <field name="binding_type">report</field>
   </record>
 </odoo>
+
